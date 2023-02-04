@@ -1,0 +1,26 @@
+{
+  "name": "tinydash",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "xtest": "NODE_OPTIONS=--experimental-vm-modules jest",
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tinydashjs/tinydash.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tinydashjs/tinydash/issues"
+  },
+  "homepage": "https://github.com/tinydashjs/tinydash#readme",
+  "devDependencies": {
+    "jest": "^29.4.1",
+    "lodash": "^4.17.21",
+    "prettier": "^2.8.3"
+  }
+}
